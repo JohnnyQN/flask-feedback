@@ -1,0 +1,132 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40; /* Dark background for the navbar */
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-right: 10px;
+    color: white !important;
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+}
+
+/* Align navigation items in a row */
+.navbar-nav {
+    flex-direction: row; 
+    margin-left: auto; /* Move nav items to the right */
+}
+
+/* Navbar links styling */
+.nav-link {
+    color: white !important;
+    background-color: #343a40 !important; /* Set the background to match the navbar */
+    padding: 10px 15px !important; /* Ensure consistent padding */
+    border-radius: 5px; /* Smooth the corners of the box */
+    text-transform: uppercase;
+    text-decoration: none !important; /* Remove underline */
+    box-shadow: none !important; /* Remove any shadow */
+    border: none !important; /* Remove any border */
+}
+
+/* Space out the nav items */
+.nav-item {
+    margin-left: 15px;
+    background-color: transparent !important; /* Ensure the list item background is transparent */
+    border: none !important; /* Ensure no border on the list item */
+    box-shadow: none !important; /* Remove any shadow from the list item */
+    padding: 0 !important; /* Remove extra padding */
+}
+
+/* Hover effect for nav links */
+.nav-link:hover {
+    opacity: 0.8;
+    background-color: #23272b !important; /* Slightly darker background on hover */
+}
+
+/* Mobile view navbar toggler */
+.navbar-toggler {
+    border: none;
+}
+
+/* Centering form container */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Button primary styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Button danger styling */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Hover effect for buttons */
+.btn-primary:hover, .btn-danger:hover {
+    opacity: 0.8;
+}
+
+/* Feedback list styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Error messages */
+.alert {
+    margin-top: 10px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form row styling */
+.form-group .col-sm-2 {
+    text-align: right;
+}
+
+.form-group .col-sm-10 {
+    padding-left: 10px;
+}
